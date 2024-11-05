@@ -9,3 +9,5 @@ The goal of this challenge was to create a personal blog to showcase my thoughts
 <img src="screenshot 2.png">
 
 ## Link to Working Application 
+
+<a href="https://namastenataly.github.io/nataly-personal-blog/">Github Page</a>
