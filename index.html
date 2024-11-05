@@ -1,45 +1,70 @@
 <!DOCTYPE html>
-<HTML>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Nataly's Personal Blog</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/form.css">
+    <meta charset="UTF-8">
+    <title>Personal Blog - Create New Post</title>
+
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+
+    <link rel="stylesheet" href="assets/css/form.css">
 </head>
-
 <body>
-  <header>
-    <div id="navbar">
-      <ul>
-        <li><a href="index.html">What's on your mind?</a></li>
-        <li><a href="blog.html">Blog Page</a></li>
-      </ul>
-      <div><button id="light-mode"></button></div>
-    </div>
-  </header>
+    <header>
+ 
+      <!-- This is the navigation bar-->
+        <div id="navbar">
+            <ul>
+           
 
-  <main>
-    <div class="dividerv"></div>
-    <div class="dividerh"></div>
-    <h1>Personal Blog</h1>
-    <form>
-      <h2>What's on your mind?</h2>
-      <label for="'username">Username</label>
-      <input type="text" id="username">
-      <label for="title">Title</label>
-      <input type="text" id="title">
-      <label for="content">Content</label>
-      <textarea name="content" id="content"></textarea>
-      <button id="submit">Submit</button>
-    </form>
-  </main>
+                <li><a href="index.html">Whats on your mind?</a></li>
+        
 
-  <footer>
-    <p>Made By Nataly</p>
-    <p>Portfolio: <a href="github.com"></a>Github</p>
-  </footer>
+                <li><a href="blog.html">Blog Page</a></li>
+            </ul>
 
-  <script src="assets/js/form.js"></script>
-  <script src="assets/js/logic.js"></script>
+
+            <div><button id="light-mode"></button></div>
+        </div>
+    </header>
+    
+    <main>
+
+        <!--This is the vertical divider-->
+        <div class="dividerv"></div> 
+        <!-- This is the horizontal divider -->
+        <div class="dividerh"></div> 
+        <!-- This is the title to the blog website -->
+        <h1>Personal Blog</h1>
+        <!-- This is to create a form for a blog post -->
+        <form>
+            <h2>What's on your mind?</h2>
+              
+
+            <label for="username">Username</label>
+            <input type="text" id="username">
+        
+
+            <label for="title">Title</label>
+            <input type="text" id="title">
+     
+
+            <label for="content">Content</label>
+            <textarea name="content" id="content"></textarea>
+      
+            <!--this button is to submit your post -->
+            <button id="submit">Submit</button>
+        </form>
+        
+    </main>
+    <footer>
+        <p>Made by Nataly Gonzalez</p>
+        <p>Portfolio: <a href="https://github.com/namastenataly/">GitHub</a></p>
+    </footer>
+
+    <!-- These are the linked JS files -->
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/form.js"></script>
 </body>
-</HTML>
+</html>

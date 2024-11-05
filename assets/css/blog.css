@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#blog {
+  font-size: 18px;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#blog div {
+  border: var(--dark2) 5px solid;
+  margin: 30px;
+  padding: 20px;
+}
+
+span {
+  font-style: italic;
+}
+
+
+@media screen and (min-width: 768px) {
+  #navbar {
+      flex-direction: row;
+  }
+
+  #navbar ul {
+      flex-direction: row;
+      gap: 2em;
+      margin: 1em;
+  }
+
+  #navbar div {
+      flex-direction: row;
+      margin-left: auto;
+  }
+
+  main {
+      flex-direction: row;
+      align-items: center;
+  }
+}

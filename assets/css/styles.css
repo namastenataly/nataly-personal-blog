@@ -1,0 +1,105 @@
+:root {
+  --lightylw: pink;
+  --lightred: purple;
+  --dark0: #ed57f0;
+  --dark1: #000000;
+  --dark2: #223949;
+}
+
+body, button {
+  font-family: "helvetica";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--lightylw);
+  color: var(--dark0);
+  padding: 10px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  font-weight: bolder;
+}
+
+#light-mode {
+  background-color: inherit;
+  border: none;
+  font-size: 40px;
+  padding: 15px;
+}
+
+main {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+input,
+textarea {
+  padding: 10px;
+}
+
+button {
+  padding: 20px;
+  border: none;
+  background-color: var(--lightylw);
+  color: var(--dark1);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: var(--dark1);
+  color: var(--lightylw);
+}
+
+footer {
+  padding: 5px;
+  background-color: var(--lightred);
+  text-align: left;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+.dividerh {
+  border-top: 3px solid rgb(0, 0, 0);
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+.dark #navbar, .dark footer {
+  background-color: var(--dark2);
+}
+
+.dark h2, .dark a {
+  color: var(--lightred);
+}
+
+.dark a:hover {
+  color: var(--lightylw);
+}
+
+.dark p, .dark span, .dark label {
+  color: var(--lightylw);
+}
+
+.dark input, .dark textarea {
+  background-color: var(--dark2);
+  color: var(--lightylw);
+}
+
+.dark #blog div {
+  background-color: var(--dark1);
+}
